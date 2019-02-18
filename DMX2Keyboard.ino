@@ -20,8 +20,8 @@
 //######### CONFIG ################//
 short DMXStart = 501; //Startadress, make sure that it is possible to read all Adresses
 const byte AdressCount = 12;
-//byte Keys[AdressCount] = {KEY_F1, KEY_F2, KEY_F3, KEY_F4, KEY_F5, KEY_F6, KEY_F7, KEY_F8, KEY_F9, KEY_F10, KEY_F11, KEY_F12};
-byte Keys[AdressCount] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'};
+byte Keys[AdressCount] = {KEY_F1, KEY_F2, KEY_F3, KEY_F4, KEY_F5, KEY_F6, KEY_F7, KEY_F8, KEY_F9, KEY_F10, KEY_F11, KEY_F12};
+//byte Keys[AdressCount] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'};
 int timeout = 1000; //Timeout to release the a key after some time, default 1000 -> 1 second
 
 //######### DO NOT CHANGE BELOW THIS POINT #########//
